@@ -1,0 +1,328 @@
+* {
+
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    font-family: 'Spartan', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.header {
+
+
+    color: white;
+    background: linear-gradient(
+    to bottom,
+    #fff,
+    #fff 50%,
+    black 50%,
+    black
+    
+  );
+    background-size: 100% 89px;
+    position: fixed;
+    width: 100%;
+    top: 0rem;
+    z-index: 2;
+
+}
+
+.header li {
+    
+    padding-top: 5px;
+    padding-left: 450px;
+    size: 10px;
+}
+
+.header a {
+
+    text-decoration: none;
+    color: black;
+    font-weight: 732;
+    padding: 50px;
+    font-size: 23px;
+}
+
+.header img{
+
+    height: 45px;
+    width: auto;
+    float: left;
+    padding-bottom: 5px;
+
+
+}
+.header a:hover {
+
+    text-decoration: none;
+    color: #4a403f
+}
+
+.main-container {
+    
+    width: 100%;
+    height: 79vh;
+    background-size: cover;
+    background-image: url(img/jewlery-show.jpg);
+
+}
+
+.main-container .overlay {
+
+    width: 100%;
+    height: 79vh;
+    background-color: rgb(0, 0, 0, 0.76);
+
+}
+
+.main-container h1 {
+
+    color: white;
+    display: flex;
+    padding-top: 350px;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 10px;
+}
+
+.main-container h2 {
+
+    color: white;
+    display: flex;
+    padding-top: 340px;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 10px;
+}
+
+.products {
+
+    width: 100%;
+
+}
+
+.img-products {
+
+    display: flex;
+    flex-direction: row;
+    bottom: -30%;
+    margin: auto;
+    width: 100%;
+    background-color: pink;
+
+}
+
+.content {
+    padding-right: 20px;
+    width: 16.04%;
+    height:300px;
+    position: absolute;
+    margin-left: 11px;
+    display: flex;
+    flex-direction: row;
+    background: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    transition: 0.6s;
+
+}
+
+
+.content:hover {
+
+    opacity: 1;
+}
+
+
+.img-products img {
+    
+    padding-top: 0px;
+    padding-left: 10px;
+    width: 100%;
+    height: 30vh;
+}
+
+
+.content2 {
+    padding-right: 20px;
+    width: 16.04%;
+    height:300px;
+    position: absolute;
+    margin-left: 328px;
+    display: flex;
+    flex-direction: row;
+    background: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    transition: 0.6s;
+
+}
+
+
+.content2:hover {
+
+    opacity: 1;
+}
+
+.content3 {
+    padding-right: 20px;
+    width: 16.04%;
+    height:300px;
+    position: absolute;
+    margin-left: 645px;
+    display: flex;
+    flex-direction: row;
+    background: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    transition: 0.6s;
+
+}
+
+
+.content3:hover {
+
+    opacity: 1;
+}
+
+
+.content4 {
+    padding-right: 20px;
+    width: 16.04%;
+    height:300px;
+    position: absolute;
+    margin-left: 963px;
+    display: flex;
+    flex-direction: row;
+    background: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    transition: 0.6s;
+
+}
+
+
+.content4:hover {
+
+    opacity: 1;
+}
+
+.content5 {
+    padding-right: 20px;
+    width: 16.04%;
+    height:300px;
+    position: absolute;
+    margin-left: 1280px;
+    display: flex;
+    flex-direction: row;
+    background: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    transition: 0.6s;
+
+}
+
+
+.content5:hover {
+
+    opacity: 1;
+}
+
+
+.content6 {
+    padding-right: 20px;
+    width: 16.04%;
+    height:300px;
+    position: absolute;
+    margin-left: 1595px;
+    display: flex;
+    flex-direction: row;
+    background: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    transition: 0.6s;
+
+}
+
+
+.content6:hover {
+
+    opacity: 1;
+}
+
+.img-products button {
+
+    border: none;
+    background: transparent;
+
+    font-size: 50px;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-left: 100px;
+}
+
+.img-products button:focus {
+    outline: none;
+}
+
+.casio-ad {
+
+    background-image: url(img/cassio-ponuda.jpg);
+    width: 100%;
+    height: 79vh;
+
+}
+
+.casio-button {
+
+    text-align: center;
+	margin-left: -30px;
+	color: gold;
+	font-weight: bold;
+	border: none;
+	margin-top: 10px;
+    background-color: transparent;
+    font-size: 50px;
+    border-radius: 10px;
+    transition: 0.4s;
+    text-shadow: 0px 0px 4px #000;
+
+    margin-top: 550px;
+    margin-left: 840px;
+    
+}
+
+.casio-button:focus {
+    outline: none;
+}
+
+.casio-button:hover {
+
+	border: solid 2px #fff;
+    background-color: transparent;
+    background-image: none;
+    color: #FFF;
+    border: solid 1px #FFF;
+    border-radius: 100px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+}
+
+.casio-ad h1{
+
+    text-align: center;
+    color: white
+}
+
+.casio-ad h3{
+
+
+    color: white;
+    text-align: center;
+    margin-top: 70px
+}
+
+@import url("https://fonts.googleapis.com/css?family=Marck+Script|Ubuntu");
